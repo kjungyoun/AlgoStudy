@@ -1,5 +1,6 @@
 # 💰02.04 체육복 (Programmers lv1)
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac6e92b7-4367-4916-a384-47e423bcdd81/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac6e92b7-4367-4916-a384-47e423bcdd81/Untitled.png)
+![0204_Programmers_체육복](https://user-images.githubusercontent.com/48318620/106917362-89615e80-674b-11eb-87e8-013faae859a1.png)
+
 
 - 학생이 가진 체육복 수를 저장하는 배열 하나만 만들면 구현할 수 있다.
 - Default로 모든 학생이 체육복 1개씩 가지고 있다는 구현
@@ -13,7 +14,8 @@
 
 ### 💬 Sudo code
 
-![image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b826c12c-5148-4c6f-a3e7-3b327ce82d22/image.png)
+![0204Programmers](https://user-images.githubusercontent.com/48318620/106917407-941bf380-674b-11eb-96b6-b9a20b2b0a01.jpg)
+
 
 ```java
 import java.util.Arrays;
