@@ -1,21 +1,3 @@
-#🌹 03.25 - SWEA_D4_1219_길찾기
-
-## 📝 문제 주소
-
-[SW Expert Academy 1219 길찾기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14geLqABQCFAYD&categoryId=AV14geLqABQCFAYD&categoryType=CODE&problemTitle=1219&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&)
-
-## ⁉️ 알고리즘 풀이
-
-- 해당 문제는 주어진 정보들로 인접 행렬이나 인접 리스트를 사용하여 그래프를 구성하고 해당 그래프의 시작점에서 종료점까지 BFS 탐색을 하는 것이다.
-- 문제에서 인접한 정점은 최대 2개 뿐이라고 했기 때문에 인접 행렬로 진행할 경우 100x100 의 행렬을 선언해야 하므로 메모리의 낭비가 심하다.
-- 따라서 인접 리스트로 구현하였다.
-
-![Untitled](https://user-images.githubusercontent.com/48318620/112308690-c24a9800-8ce5-11eb-9fad-384fc2ca2665.png)
-
-
-## 📜 코드
-
-```java
 package com.swea;
 
 import java.io.BufferedReader;
@@ -67,4 +49,3 @@ public class Main_D4_1219_길찾기 {
 		}		
 	}
 }
-```
