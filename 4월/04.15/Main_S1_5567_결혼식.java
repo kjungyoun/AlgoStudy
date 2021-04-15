@@ -1,27 +1,3 @@
-#🌹 04.15 - 백준_S1_5567_결혼식
-
-## 📝 문제 주소
-
-[백준 5567번: 결혼식](https://www.acmicpc.net/problem/5567)
-
-## 📝 알고리즘 분류
-
-- 구현
-- 그래프 이론
-- 그래프 탐색
-- 너비 우선 탐색
-
-## ⁉️ 알고리즘 풀이
-
-- 인접 리스트로 구현
-- 그래프를 구현하고 그래프에서 옆과 옆의 옆 을 탐색하면 끝!
-
-![Untitled](https://user-images.githubusercontent.com/48318620/114860880-7f349e00-9e27-11eb-8cdd-af9a886d89bb.png)
-
-
-## 📜 코드
-
-```java
 package com.beak;
 
 import java.io.BufferedReader;
@@ -42,6 +18,7 @@ public class Main_S1_5567_결혼식 {
 			adjList[i] = new LinkedList<Integer>();
 		}
 		
+		
 		for (int i = 0; i < m; i++) {
 			st = new StringTokenizer(in.readLine());
 			int from = Integer.parseInt(st.nextToken());
@@ -50,8 +27,10 @@ public class Main_S1_5567_결혼식 {
 			adjList[to].add(from);
 		}
 		
+		
 		boolean visited[] = new boolean[N+1];
 		int answer = 0;
+		
 		
 		int size = adjList[1].size();
 		for (int i = 0; i < size; i++) {
@@ -70,6 +49,7 @@ public class Main_S1_5567_결혼식 {
 			}
 		}
 		
+		
 		System.out.println(answer);
 		
 		
@@ -78,4 +58,3 @@ public class Main_S1_5567_결혼식 {
 	}
 
 }
-```
